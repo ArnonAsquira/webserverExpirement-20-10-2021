@@ -1,0 +1,32 @@
+{
+  "name": "webserver-expirement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArnonAsquira/webserverExpirement-20-10-2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArnonAsquira/webserverExpirement-20-10-2021/issues"
+  },
+  "homepage": "https://github.com/ArnonAsquira/webserverExpirement-20-10-2021#readme",
+  "devDependencies": {
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
+    "style-loader": "^3.3.0",
+    "validator": "^13.6.0"
+  }
+}
